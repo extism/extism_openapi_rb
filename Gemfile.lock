@@ -1,0 +1,49 @@
+PATH
+  remote: .
+  specs:
+    extism_openapi (0.1.0)
+      extism (= 1.0.0.pre.rc.5)
+      openapi3_parser (~> 0.9)
+
+PATH
+  remote: /Users/ben/dylibso/extism-libs/ruby-sdk
+  specs:
+    extism (1.0.0.pre.rc.5)
+      ffi (>= 1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    commonmarker (0.23.10)
+    debug (1.8.0)
+      irb (>= 1.5.0)
+      reline (>= 0.3.1)
+    ffi (1.16.3)
+    io-console (0.6.0)
+    irb (1.8.3)
+      rdoc
+      reline (>= 0.3.8)
+    minitest (5.20.0)
+    openapi3_parser (0.9.2)
+      commonmarker (~> 0.17)
+    psych (5.1.1.1)
+      stringio
+    rake (13.1.0)
+    rdoc (6.6.0)
+      psych (>= 4.0.0)
+    reline (0.4.0)
+      io-console (~> 0.5)
+    stringio (3.0.9)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  debug (>= 1.0.0)
+  extism!
+  extism_openapi!
+  minitest (~> 5.0)
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.4.10
